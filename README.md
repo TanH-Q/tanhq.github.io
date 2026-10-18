@@ -1,62 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn about Pluto.">
-  <title>Pluto the Dwarf Planet</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header>
-    <a class="logo" href="index.html">PLUTO<span>.</span></a>
-    <nav aria-label="Main navigation">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="pluto.html">Explore Pluto</a>
-      <a href="moons.html">Moons</a>
-      <a href="missions.html">Missions & Media</a>
-    </nav>
-  </header>
+Pluto: A World Beyond
+Project Overview
+Pluto: A World Beyond is a personal website about Pluto, the dwarf planet located in the outer region of our solar system. The website explores Pluto's history, surface, moons, and space exploration missions.
 
-  <main>
-    <section class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">THE EDGE OF OUR SOLAR SYSTEM</p>
-        <h1>A World Far Away.</h1>
-        <p>Far from the Sun lies Pluto, a small icy planet with a story waiting to be explored.</p>
-        <a class="button" href="pluto.html">Start Exploring</a>
-      </div>
-    </section>
+This project is being developed for CS 200 — Responsive Web Design with HTML to practice HTML, CSS, multimedia, and responsive web design.
 
-    <section class="section">
-      <p class="eyebrow">WELCOME TO PLUTO</p>
-      <h2>Small World. Big Mysteries.</h2>
-      <p>Discovered in 1930, Pluto is a dwarf planet in the Kuiper Belt. Its icy mountains, thin atmosphere, and moons make it a unique world.</p>
-
-      <div class="card-grid">
-        <article class="card">
-          <img src="images/pluto-surface.jpg" alt="Pluto's icy surface">
-          <div class="card-content">
-            <h3>Explore the Surface</h3>
-            <p>Discover Pluto's frozen landscape and atmosphere.</p>
-            <a href="pluto.html">Learn about Pluto</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <img src="images/new-horizons.jpg" alt="Illustration of the New Horizons spacecraft">
-          <div class="card-content">
-            <h3>Exploration</h3>
-            <p>Follow humanity's journey to this distant world.</p>
-            <a href="missions.html">Learn about the mission</a>
-          </div>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    
-  </footer>
-</body>
-</html>
+Website Features
+Multiple Pages: A homepage and separate pages about Pluto, its moons, and space exploration.
+Images: Astronomy images that help visitors explore Pluto and its environment.
+Navigation Links: Links connecting the website's pages and external educational resources.
+CSS Styling: A space-inspired design featuring dark backgrounds and icy blue accents.
+Responsive Design: Layouts designed to adapt to mobile phones, tablets, and desktop screens.
+Multimedia: A video section featuring Pluto or NASA's New Horizons mission.
+Pages
+Home (index.html) — Introduction to Pluto and the website.
+Explore Pluto (pluto.html) — Information about Pluto's discovery, surface, and characteristics.
+Pluto's Moons (moons.html) — An introduction to Pluto's five known moons.
+Missions & Media (missions.html) — Information about NASA's New Horizons mission and related multimedia.
