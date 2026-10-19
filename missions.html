@@ -3,67 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Missions & Media | A World Beyond</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Explore the history of Pluto research and NASA's New Horizons mission.">
+    <title>Space Missions | Exploring Pluto</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <a class="logo" href="index.html">PLUTO<span>.</span></a>
-        <nav aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="pluto.html">Explore Pluto</a>
-            <a href="moons.html">Moons</a>
-            <a href="missions.html" aria-current="page">Missions & Media</a>
-        </nav>
+        <h1>Space Missions to Pluto</h1>
+        <p>How spacecraft revealed a distant world</p>
     </header>
 
-    <main class="section">
-        <p class="eyebrow">HUMANITY'S JOURNEY</p>
-        <h1>The New Horizons Mission</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pluto.html">About Pluto</a></li>
+            <li><a href="moons.html">Pluto's Moons</a></li>
+            <li><a href="missions.html">Space Missions</a></li>
+        </ul>
+    </nav>
 
-        <img src="images/new-horizons.jpg"
-             alt="Illustration of the New Horizons spacecraft">
+    <main>
+        <section>
+            <h2>Exploring the Unknown</h2>
+            <p>
+                Pluto is extremely far from Earth, making close-up
+                exploration challenging. For many years, scientists
+                studied Pluto using telescopes. NASA's New Horizons
+                spacecraft later provided the first close-up views
+                of Pluto and its moons.
+            </p>
+        </section>
 
-        <h2>A Historic Flyby</h2>
-        <p>
-            NASA launched New Horizons in 2006. On July 14, 2015,
-            the spacecraft made the first close flyby of Pluto,
-            returning detailed images and scientific measurements.
-        </p>
+        <section>
+            <h2>New Horizons</h2>
 
-        <h2>Watch and Explore</h2>
-        <p>
-            Add a video about Pluto or the New Horizons mission
-            to the media player below.
-        </p>
+            <figure>
+                <img
+                    class="hero-image"
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Horizons_spacecraft_model.png"
+                    alt="Model of NASA's New Horizons spacecraft">
+                <figcaption>
+                    New Horizons was designed to investigate Pluto and
+                    other distant objects in the Kuiper Belt.
+                </figcaption>
+            </figure>
 
-        <video controls preload="metadata"
-               poster="images/pluto.jpg"
-               width="100%">
-            <source src="media/pluto-mission.mp4" type="video/mp4">
-            Your browser does not support HTML video.
-            Add the video file or visit NASA's mission website.
-        </video>
+            <ul class="fact-list">
+                <li><strong>Launch date:</strong> January 19, 2006</li>
+                <li><strong>Pluto flyby:</strong> July 14, 2015</li>
+                <li><strong>Space agency:</strong> NASA</li>
+                <li><strong>Main goal:</strong> Study Pluto, its moons, and the outer solar system</li>
+            </ul>
 
-        <p>
-            <a href="https://science.nasa.gov/mission/new-horizons/">
-                Visit NASA's New Horizons mission page
-            </a>
-        </p>
+            <p>
+                New Horizons traveled for more than nine years before
+                passing Pluto. During the flyby, it collected images
+                and scientific measurements that revealed mountains,
+                icy plains, and details about Pluto's thin atmosphere.
+            </p>
+        </section>
 
-        <h2>Why the Mission Matters</h2>
-        <p>
-            New Horizons transformed Pluto from a distant point of
-            light into a world we could study in detail. Its findings
-            helped scientists better understand Pluto and other icy
-            bodies in the outer solar system.
-        </p>
+        <section>
+            <h2>What Did Scientists Discover?</h2>
 
-        <a class="button" href="index.html">Return Home</a>
+            <div class="card-container">
+                <article class="card">
+                    <h3>Complex Landscapes</h3>
+                    <p>
+                        Images revealed mountains made largely of water
+                        ice and broad plains containing frozen nitrogen.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Active Surface Processes</h3>
+                    <p>
+                        Pluto's surface features suggest that its icy
+                        landscape has changed over time.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>A Better View of Charon</h3>
+                    <p>
+                        The flyby also revealed striking surface
+                        features on Charon, Pluto's largest moon.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>Explore Mission Multimedia</h2>
+            <p>
+                Watch mission videos and explore the images collected
+                during New Horizons' journey.
+            </p>
+            <p>
+                <a class="button-link"
+                   href="https://science.nasa.gov/mission/new-horizons/"
+                   target="_blank" rel="noopener noreferrer">
+                    Visit NASA's New Horizons Mission Page
+                </a>
+            </p>
+            <p>
+                <a href="https://images.nasa.gov/"
+                   target="_blank" rel="noopener noreferrer">
+                    Browse NASA's Image and Video Library
+                </a>
+            </p>
+        </section>
     </main>
 
     <footer>
-        
+        <p>Exploring Pluto | Educational Website Project</p>
+        <p>Created using HTML5 and CSS3.</p>
     </footer>
 </body>
 </html>
