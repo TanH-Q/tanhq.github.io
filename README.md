@@ -1,18 +1,19 @@
-Pluto: A World Beyond
-Project Overview
-Pluto: A World Beyond is a personal website about Pluto, the dwarf planet located in the outer region of our solar system. The website explores Pluto's history, surface, moons, and space exploration missions.
 
-This project is being developed for CS 200 — Responsive Web Design with HTML to practice HTML, CSS, multimedia, and responsive web design.
+# Learn About Pluto
 
-Website Features
-Multiple Pages: A homepage and separate pages about Pluto, its moons, and space exploration.
-Images: Astronomy images that help visitors explore Pluto and its environment.
-Navigation Links: Links connecting the website's pages and external educational resources.
-CSS Styling: A space-inspired design featuring dark backgrounds and icy blue accents.
-Responsive Design: Layouts designed to adapt to mobile phones, tablets, and desktop screens.
-Multimedia: A video section featuring Pluto or NASA's New Horizons mission.
-Pages
-Home (index.html) — Introduction to Pluto and the website.
-Explore Pluto (pluto.html) — Information about Pluto's discovery, surface, and characteristics.
-Pluto's Moons (moons.html) — An introduction to Pluto's five known moons.
-Missions & Media (missions.html) — Information about NASA's New Horizons mission and related multimedia.
+## Description
+This is an educational website about Pluto, a dwarf planet located in the Kuiper Belt. The website introduces Pluto, describes its physical characteristics, explores its moons, and describes the missions related it.
+
+## Website Pages
+- **Home (`index.html`):** An introduction to Pluto.
+- **Pluto (`pluto.html`):** Facts about Pluto's size, atmosphere, surface, and orbit.
+- **Moons (`moons.html`):** Information about Pluto's five known moons.
+- **Missions (`missions.html`):** An overview of space exploration, including NASA's New Horizons mission.
+
+## Project Goals
+The goal is to practice the web development concepts covered in Chapters 1–6 of *Responsive Web Design with HTML 5 & CSS, 9th Edition* by Jessica Minnick.
+
+## Information Sources
+- [NASA Solar System Exploration: Pluto](https://science.nasa.gov/dwarf-planets/pluto/)
+- [NASA: New Horizons](https://science.nasa.gov/mission/new-horizons/)
+- [NASA Solar System Exploration: Moons](https://science.nasa.gov/solar-system/moons/)
