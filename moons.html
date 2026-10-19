@@ -1,79 +1,121 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pluto's Moons | A World Beyond</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Discover Charon, Styx, Nix, Kerberos, and Hydra, the moons of Pluto.">
+    <title>Pluto's Moons | Exploring Pluto</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <a class="logo" href="index.html">PLUTO<span>.</span></a>
-        <nav aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="pluto.html">Explore Pluto</a>
-            <a href="moons.html" aria-current="page">Moons</a>
-            <a href="missions.html">Missions & Media</a>
-        </nav>
+        <h1>Pluto's Moons</h1>
+        <p>Five moons orbiting a distant dwarf planet</p>
     </header>
 
-    <main class="section">
-        <p class="eyebrow">A SMALL PLANETARY FAMILY</p>
-        <h1>Pluto's Moons</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pluto.html">About Pluto</a></li>
+            <li><a href="moons.html">Pluto's Moons</a></li>
+            <li><a href="missions.html">Space Missions</a></li>
+        </ul>
+    </nav>
 
-        <img src="images/pluto-charon.jpg"
-             alt="Pluto and its largest moon, Charon">
+    <main>
+        <section>
+            <h2>A Family of Moons</h2>
+            <p>
+                Pluto has five known natural satellites: Charon, Styx,
+                Nix, Kerberos, and Hydra. Charon is the largest and is
+                so large compared with Pluto that the two bodies are
+                sometimes described as a double dwarf-planet system.
+            </p>
 
-        <h2>Five Known Moons</h2>
-        <p>
-            Pluto has five known natural satellites. Charon is the
-            largest, while Styx, Nix, Kerberos, and Hydra are smaller.
-        </p>
+            <figure>
+                <img
+                    class="hero-image"
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Pluto-Charon_System.jpg"
+                    alt="Illustration of Pluto and its large moon Charon">
+                <figcaption>
+                    Pluto and Charon form a distinctive pair in the outer
+                    solar system.
+                </figcaption>
+            </figure>
+        </section>
 
-        <div class="card-grid">
-            <article class="card">
-                <div class="card-content">
+        <section>
+            <h2>Meet the Five Moons</h2>
+
+            <div class="card-container">
+                <article class="card">
                     <h3>Charon</h3>
                     <p>
-                        Pluto's largest moon is so large relative to
-                        Pluto that the two are sometimes described
-                        as a double dwarf-planet system.
+                        Discovered in 1978, Charon is Pluto's largest moon.
+                        It is about half Pluto's diameter and has a large
+                        influence on the motion of the two bodies.
                     </p>
-                </div>
-            </article>
+                </article>
 
-            <article class="card">
-                <div class="card-content">
-                    <h3>Nix and Hydra</h3>
+                <article class="card">
+                    <h3>Nix</h3>
                     <p>
-                        These smaller moons were discovered in
-                        observations made with the Hubble Space Telescope.
+                        Discovered in 2005, Nix is a small, irregularly
+                        shaped moon. It was named after Nyx, the Greek
+                        goddess of the night.
                     </p>
-                </div>
-            </article>
+                </article>
 
-            <article class="card">
-                <div class="card-content">
-                    <h3>Styx and Kerberos</h3>
+                <article class="card">
+                    <h3>Hydra</h3>
                     <p>
-                        These two small moons complete Pluto's
-                        known family of five natural satellites.
+                        Also discovered in 2005, Hydra is an irregular
+                        moon named after the many-headed creature from
+                        Greek mythology.
                     </p>
-                </div>
-            </article>
-        </div>
+                </article>
 
-        <p>
-            <a href="https://science.nasa.gov/dwarf-planets/pluto/">
-                Explore Pluto's moons and system at NASA
-            </a>
-        </p>
+                <article class="card">
+                    <h3>Kerberos</h3>
+                    <p>
+                        Discovered in 2011, Kerberos is a small moon
+                        named after the mythical three-headed guard
+                        of the underworld.
+                    </p>
+                </article>
 
-        <a class="button" href="missions.html">Discover the Mission</a>
+                <article class="card">
+                    <h3>Styx</h3>
+                    <p>
+                        Discovered in 2012, Styx is the smallest of
+                        Pluto's five known moons. Its name comes from
+                        a river associated with the Greek underworld.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>How Were the Moons Studied?</h2>
+            <p>
+                NASA's New Horizons spacecraft photographed Pluto and
+                several of its moons during its 2015 flyby. These
+                observations helped scientists learn more about their
+                shapes, surfaces, and motions.
+            </p>
+            <p>
+                Visit
+                <a href="https://science.nasa.gov/dwarf-planets/pluto/"
+                   target="_blank" rel="noopener noreferrer">NASA's Pluto page</a>
+                for additional information.
+            </p>
+        </section>
     </main>
 
     <footer>
-        
+        <p>Exploring Pluto | Educational Website Project</p>
+        <p>Created using HTML5 and CSS3.</p>
     </footer>
 </body>
 </html>
