@@ -1,62 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn about Pluto.">
-  <title>Pluto the Dwarf Planet</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Pluto, its moons, and the missions that have studied this dwarf planet.">
+    <title>Exploring Pluto | Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <a class="logo" href="index.html">PLUTO<span>.</span></a>
-    <nav aria-label="Main navigation">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="pluto.html">Explore Pluto</a>
-      <a href="moons.html">Moons</a>
-      <a href="missions.html">Missions & Media</a>
+    <header>
+        <h1>Exploring Pluto</h1>
+        <p>A journey to the edge of our solar system</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pluto.html">About Pluto</a></li>
+            <li><a href="moons.html">Pluto's Moons</a></li>
+            <li><a href="missions.html">Missions</a></li>
+        </ul>
     </nav>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">THE EDGE OF OUR SOLAR SYSTEM</p>
-        <h1>A World Far Away.</h1>
-        <p>Far from the Sun lies Pluto, a small icy planet with a story waiting to be explored.</p>
-        <a class="button" href="pluto.html">Start Exploring</a>
-      </div>
-    </section>
+    <main>
+        <section>
+            <h2>Welcome to Pluto</h2>
+            <p>
+                Pluto is a distant dwarf planet in the Kuiper Belt, a region
+                filled with icy objects. Although Pluto is small,
+                it has a fascinating surface, a thin atmosphere,
+                and several moons.
+            </p>
 
-    <section class="section">
-      <p class="eyebrow">WELCOME TO PLUTO</p>
-      <h2>Small World. Big Mysteries.</h2>
-      <p>Discovered in 1930, Pluto is a dwarf planet in the Kuiper Belt. Its icy mountains, thin atmosphere, and moons make it a unique world.</p>
+            <figure>
+                <img
+                    class="hero-image"
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Nh-pluto-in-true-color_2x_JPEG-edit.jpg"
+                    alt="A close-up view of Pluto showing its varied surface and bright heart-shaped region">
+                <figcaption>
+                    Pluto photographed by NASA's New Horizons spacecraft.
+                    Image source:
+                    <a href="https://science.nasa.gov/dwarf-planets/pluto/"
+                       target="_blank" rel="noopener noreferrer">NASA</a>.
+                </figcaption>
+            </figure>
+        </section>
 
-      <div class="card-grid">
-        <article class="card">
-          <img src="images/pluto-surface.jpg" alt="Pluto's icy surface">
-          <div class="card-content">
-            <h3>Explore the Surface</h3>
-            <p>Discover Pluto's frozen landscape and atmosphere.</p>
-            <a href="pluto.html">Learn about Pluto</a>
-          </div>
-        </article>
+        <section>
+            <h2>Explore the Website</h2>
 
-        <article class="card">
-          <img src="images/new-horizons.jpg" alt="Illustration of the New Horizons spacecraft">
-          <div class="card-content">
-            <h3>Exploration</h3>
-            <p>Follow humanity's journey to this distant world.</p>
-            <a href="missions.html">Learn about the mission</a>
-          </div>
-        </article>
-      </div>
-    </section>
-  </main>
+            <div class="card-container">
+                <article class="card">
+                    <h3>About Pluto</h3>
+                    <p>
+                        Discover Pluto's size, temperature, atmosphere,
+                        surface, and orbit around the Sun.
+                    </p>
+                    <a class="button-link" href="pluto.html">Explore Pluto</a>
+                </article>
 
-  <footer>
-    
-  </footer>
+                <article class="card">
+                    <h3>Pluto's Moons</h3>
+                    <p>
+                        Meet Charon, Styx, Nix, Kerberos, and Hydra,
+                        the five known moons of Pluto.
+                    </p>
+                    <a class="button-link" href="moons.html">Explore the Moons</a>
+                </article>
+
+                <article class="card">
+                    <h3>Space Missions</h3>
+                    <p>
+                        Learn how spacecraft have helped scientists
+                        understand this distant world.
+                    </p>
+                    <a class="button-link" href="missions.html">Explore Missions</a>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>Did You Know?</h2>
+            <p>
+                Pluto was discovered in 1930 by astronomer Clyde Tombaugh.
+                In 2006, it was reclassified as a dwarf planet by the
+                International Astronomical Union.
+            </p>
+            <p>
+                Learn more from
+                <a href="https://science.nasa.gov/dwarf-planets/pluto/"
+                   target="_blank" rel="noopener noreferrer">NASA's Pluto guide</a>.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Exploring Pluto | Educational Website Project</p>
+        <p>Created using HTML5 and CSS3.</p>
+    </footer>
 </body>
 </html>
